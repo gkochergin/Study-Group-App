@@ -31,3 +31,18 @@ As a participant, I want to comment on the study group post, so that I can respo
 **Acceptance Criteria:**
 - The user can comment on posts.
 - The user can see comments.
+
+
+**Sprint Goal:** After finding their desired study group, a student can join that group and will be presented with the information within it, such as meeting times, locations, and any other user submissions made by its members. The user will also have the same permissions that the admitted members have, such as commenting.
+
+| Story | Size | Owner |
+|---|---|---|
+| 1. Join a Study Group | M | Naomi |
+
+## Story 2: Join a Study Group
+
+As a participant, I want to join or request to join a study group, so that I can take part in its sessions.
+
+**Acceptance Criteria:**
+- Pressing Join shows the group's information (meeting location, time, etc.).
+- After joining, the user can do what other members can, such as commenting.
