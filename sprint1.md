@@ -17,6 +17,11 @@ As a participant, I want to join or request to join a study group, so that I can
 **Acceptance Criteria:**
 - Pressing Join shows the group's information (meeting location, time, etc.).
 - After joining, the user can do what other members can, such as commenting.
+
+## Story 3: 
+-Search and Browse Groups - M Austin As a participant, I want to search and browse study groups by class, so that I can find a group for the course I need help with. 
+**Acceptance Criteria:** The user can enter a class name into the search bar. The correct study group for that class appears.
+
   
 ## Story 4: Share a Study Group
 
