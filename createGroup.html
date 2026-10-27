@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>StudyCircle - Create a Group</title>
+        <link rel="stylesheet" href="createGroup.css">
+    </head>
+
+    <body>
+        <h2 class="corner-heading">StudyCircle</h2>
+        <h1 class="center-heading">Create a Study Group</h1>
+
+        <div class="horizontal-line"></div>
+
+        <!-- COURSE INFORMATION SECTION -->
+
+        <h2 class="corner-heading">Course information</h2>
+
+         <!-- This class is so that these two options can be on the same line, but in different elements-->
+        <div class="infoRow1">
+            <h3>Course name</h3> <h3>Section number</h3>
+        </div>
+        <div class="infoRow1"> <!-- Putting the input boxes on the same line -->
+            <input type="text" class="courseBox" placeholder="Course Name">
+            <input type="text" class="sectionBox" placeholder="Section Number">
+        </div>
+
+
+        <!-- MEETING INFORMATION SECTION -->
+
+        <h2 class="meetingInfo">Meeting information</h2>
+        <div class="infoRow2">
+            <h3>Enter meeting time(s)</h3> <h3>Enter meeting day(s)</h3>
+        </div>
+        <div class="infoRow2"> <!-- Putting the input boxes on the same line -->
+            <input type="text" class="meetingTimes" placeholder="Meeting Time(s)">
+            <input type="text" class="meetingDays" placeholder="Meeting Day(s)">
+        </div>
+
+        <!-- DESCRIPTION SECTION -->
+
+        <h2 class="description">Description</h2>
+        <textarea class=description2 placeholder="Describe your study group"></textarea>
+
+        <button type="button" class="createButton">CREATE</button>
+
+
+    </body>
+
+</html>
