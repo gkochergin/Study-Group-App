@@ -45,6 +45,40 @@ h4
 
 }
 
+/* List of all study groups, pushed down so it starts below the search bar and "create one" line */
+.allGroups
+{
+    width: 550px;
+    max-width: 90vw;
+    margin-top: 170px;
+    margin-bottom: 40px;
+}
+
+.allGroups h2
+{
+    color: #333;
+}
+
+/* One box per study group, same grey and rounded corners as the search bar */
+.groupCard
+{
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+}
+
+.groupTitle
+{
+    margin: 0 0 8px 0;
+    color: #333;
+}
+
+.groupMeeting, .groupDescription, .groupMessage
+{
+    margin: 4px 0;
+}
+
 html
 {
     scroll-behavior: smooth;
