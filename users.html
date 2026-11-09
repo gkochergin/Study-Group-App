@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>StudyCircle - Users</title>
+        <link rel="stylesheet" href="users.css">
+    </head>
+
+    <body>
+        <main class="usersPage">
+            <a class="backLink" href="homepage.html">Back to study groups</a>
+            <header class="pageHeader">
+                <h1>StudyCircle</h1>
+                <p>Meet the people in your study community.</p>
+            </header>
+
+            <section class="usersSection" aria-labelledby="users-heading">
+                <h2 id="users-heading">All users</h2>
+                <p id="users-status" role="status" aria-live="polite" aria-busy="true">
+                    Loading users...
+                </p>
+                <ul id="users-list" class="usersList" aria-label="StudyCircle users"></ul>
+            </section>
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4"></script>
+        <script src="supabaseClient.js"></script>
+        <script src="users.js"></script>
+    </body>
+</html>
