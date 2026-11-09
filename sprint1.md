@@ -1,6 +1,14 @@
 # Sprint 1 Plan
 
-**Sprint Goal:** A student can create a study group for a class, and another student can search for that class, find the group, join it, share its link, and comment on it.
+**Sprint Goal:** A student can create a study group for a class, and another student can search for that class, find the group, join it, share its link, and comment on it. The user will also be presented with the information within it, such as meeting times, locations, and any other user submissions made by its members.
+
+| Owner | Story | Size |
+|---|---|---|
+| George | 1. Create a Study Group | M |
+| Naomi | 2. Join a Study Group | M |
+| Austin | 3. Search and Browse Groups | M |
+| George | 4. Share a Study Group | S |
+| Naomi | 5. Comment on a Study Group | S |
 
 ## Story 1: Create a Study Group
 
@@ -38,7 +46,4 @@ As a participant, I want to comment on the study group post, so that I can respo
 **Acceptance Criteria:**
 - The user can comment on posts.
 - The user can see comments.
-
-
-**Sprint Goal:** After finding their desired study group, a student can join that group and will be presented with the information within it, such as meeting times, locations, and any other user submissions made by its members. The user will also have the same permissions that the admitted members have, such as commenting.
 
