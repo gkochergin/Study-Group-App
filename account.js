@@ -1,3 +1,7 @@
+const signupForm = document.querySelector("#signup-form");
+const loginForm = document.querySelector("#login-form");
+const authMessage = document.querySelector("#auth-message");
+
 function showAuthMessage(message) {
     authMessage.textContent = message;
 }
